@@ -11,6 +11,37 @@
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  width: 1000px;
+
   max-width: 100%;
 }
+
+button {
+  background-color: blue;
+  padding: 5px 10px;
+  border: 0;
+  color: white;
+}
+
+/* # HEADER */
+
+.upper-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-item {
+  margin: 20px;
+}
+
+.header-item-left,
+.header-item-right {
+  margin-right: 20px;
+}
+
+.bottom-header {
+  background-color: rgb(111, 217, 221);
+}
+
+/* # MAIN */
+
+/* # FOOTER */
