@@ -40,8 +40,43 @@ button {
 
 .bottom-header {
   background-color: rgb(111, 217, 221);
+  text-align: center;
+}
+
+.header-title {
+  font-size: 30px;
+  padding: 0 700px;
+}
+
+.header-content {
+}
+
+.header-image {
+  max-width: 700px;
+}
+
+.header-p {
 }
 
 /* # MAIN */
+.section-1 {
+  text-align: center;
+}
+
+.main-card {
+  width: 300px;
+}
+
+.header-card,
+.content-card {
+  border: 1px solid black;
+}
+
+.last-card {
+}
 
 /* # FOOTER */
+
+footer {
+  background-color: black;
+}
