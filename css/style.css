@@ -26,7 +26,8 @@ h2 {
   margin: 30px;
 }
 
-.section {
+.section,
+footer {
   text-align: center;
   padding: 0 700px;
 }
@@ -115,4 +116,24 @@ h2 {
 
 footer {
   background-color: black;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.end-title {
+  font-size: 25px;
+}
+
+.list-item {
+  color: white;
+  padding: 100px;
+}
+
+.style-list {
+  list-style-type: none;
+  padding: 5px;
 }
