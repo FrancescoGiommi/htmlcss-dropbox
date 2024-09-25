@@ -22,8 +22,13 @@ button {
   color: white;
 }
 
+h2 {
+  margin: 30px;
+}
+
 .section {
   text-align: center;
+  padding: 0 700px;
 }
 
 /* # HEADER */
@@ -53,13 +58,11 @@ button {
 }
 
 .header-content {
+  padding: 0 700px;
 }
 
 .header-image {
   max-width: 700px;
-}
-
-.header-p {
 }
 
 /* # MAIN */
@@ -73,11 +76,26 @@ button {
   border: 1px solid black;
 }
 
-.last-card {
+.flex-right {
+  display: flex;
 }
 
 #image {
   max-width: 500px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-image {
+  max-width: 300px;
+}
+
+.card-function {
+  max-width: 300px;
+  margin: 20px;
 }
 
 /* # FOOTER */
