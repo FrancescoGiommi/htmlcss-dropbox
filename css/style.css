@@ -175,9 +175,25 @@ footer {
   margin: 120px 700px;
 }
 
+.brands-container {
+  display: flex;
+}
+
+.brand-square {
+  width: 50%;
+}
+
+.brand-logo {
+  width: 50%;
+  height: 50%;
+}
+
 .width-1-3 {
+  width: calc(100vw / 3);
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 /* # Q&A */
