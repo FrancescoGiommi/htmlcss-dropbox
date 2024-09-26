@@ -8,6 +8,10 @@
 
 /* # UTILS */
 
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
 .container {
   margin: 0 auto;
   padding: 0 10px;
@@ -15,20 +19,31 @@
   max-width: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
 button {
   background-color: blue;
-  padding: 5px 10px;
+  padding: 15px 25px;
   border: 0;
   color: white;
 }
 
 h2 {
-  margin: 30px;
+  font-size: 30px;
+}
+
+.section {
+  margin-top: 100px;
 }
 
 .section,
 footer {
-  text-align: center;
   padding: 0 700px;
 }
 
@@ -50,26 +65,48 @@ footer {
 
 .bottom-header {
   background-color: rgb(111, 217, 221);
-  text-align: center;
 }
 
 .header-title {
-  font-size: 30px;
-  padding: 0 700px;
+  font-size: 70px;
+  padding: 50px 700px;
 }
 
 .header-content {
   padding: 0 700px;
+  display: flex;
+  flex-direction: row;
+}
+
+#left-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .header-image {
   max-width: 700px;
+  position: relative;
+  top: 60px;
 }
 
 /* # MAIN */
 
+#card-flex {
+  display: flex;
+}
+
 .main-card {
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.content-card {
+}
+
+.header-card {
+  text-align: center;
 }
 
 .header-card,
@@ -79,10 +116,19 @@ footer {
 
 .flex-right {
   display: flex;
+  align-items: flex-start;
 }
 
 #image {
-  max-width: 500px;
+  width: 100%;
+}
+
+.width-40 {
+  width: 40%;
+}
+
+.width-60 {
+  width: 60%;
 }
 
 .card-container {
@@ -116,6 +162,7 @@ footer {
 
 footer {
   background-color: black;
+  text-align: center;
 }
 
 .footer-item {
@@ -134,6 +181,5 @@ footer {
 }
 
 .style-list {
-  list-style-type: none;
   padding: 5px;
 }
